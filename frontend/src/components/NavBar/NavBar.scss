@@ -1,0 +1,69 @@
+@import "./../../styles/variables.scss";
+@import "./../../styles/mixins.scss";
+@import "../../styles/breakpoints.scss";
+
+.navbar {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+  height: 10rem;
+  margin: 0 auto;
+  font-family: $RobotoSlab;
+  @include sm {
+    padding: 0 2rem;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      color: white;
+      cursor: pointer;
+    }
+
+    &__title {
+      font-size: 2.5rem;
+      padding: 1rem;
+      font-family: $Welcome;
+      @include text-gradient(180deg, $pink-primary, $yellow);
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      @include sm {
+        display: none;
+      }
+    }
+  }
+
+  &__auth {
+    display: flex;
+    justify-content: "space-between";
+    align-items: center;
+
+    &__username {
+      color: white;
+      font-size: 1.2rem;
+      margin-right: 2rem;
+      @include sm {
+        display: none;
+      }
+    }
+
+    &__avatar {
+      border-radius: 50%;
+      height: 4.2rem;
+      width: 4.2rem;
+      margin-right: 2rem;
+      @include xs {
+        display: none;
+      }
+    }
+  }
+}

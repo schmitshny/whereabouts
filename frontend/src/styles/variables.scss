@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@500;600&family=Roboto+Mono:wght@300;500;600;700&family=Roboto:wght@400;700&display=swap");
+
+@font-face {
+  font-family: "Welcome";
+  src: url("./fonts/Welcome-2019.ttf");
+}
+@font-face {
+  font-family: "RobotoSlab";
+  src: url("./fonts/RobotoSlab.ttf");
+}
+@font-face {
+  font-family: "RobotoSlabLight";
+  src: url("./fonts/RobotoSlab-Light.ttf");
+}
+
+$RobotoMono: "Roboto Mono", sans-serif;
+$Eczar: "Eczar", serif;
+$Roboto: "Roboto", sans-serif;
+$Welcome: "Welcome";
+$RobotoSlab: "RobotoSlab";
+$RobotoSlabLight: "RobotoSlabLight";
+
+$primary: rgb(10, 10, 10);
+$primaryLighten: rgb(59, 59, 59);
+
+$pink-primary: #ef4b78;
+$pink-secondary: #dd4561;
+$yellow: #e8c92a;
+$yellow-secondary: #ffd503;
+$gray-primary: #4e4e4e;
+$gray-body: #f9f9f9;
+$brown-primary: #63451a;
+$brown-secondary: #504026;

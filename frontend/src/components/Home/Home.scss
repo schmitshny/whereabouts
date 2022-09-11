@@ -1,0 +1,113 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/variables.scss";
+@import "../../styles/breakpoints";
+
+.header {
+  color: white;
+  height: calc(100vh - 9rem);
+  text-align: center;
+  animation: AnimationUp 1.5s linear both;
+  z-index: 100;
+  position: relative;
+
+  @include xs {
+    font-size: 2rem;
+  }
+  @include sm {
+    height: calc(100vh - 13rem);
+  }
+
+  &__title {
+    font-family: $Welcome;
+    font-size: 7rem;
+    @include sm {
+      font-size: 3rem;
+    }
+  }
+
+  &__paragraph {
+    font-size: 1.5rem;
+  }
+
+  .lead {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    left: 0;
+  }
+}
+
+.dropDown {
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  bottom: 3rem;
+  &__icon {
+    color: $yellow;
+    cursor: pointer;
+
+    &:hover {
+      color: $yellow-secondary;
+    }
+  }
+}
+
+.main {
+  padding: 1.5rem 2rem;
+  background-color: $gray-body;
+
+  margin: 0 auto;
+  margin-top: 50px;
+
+  display: grid;
+
+  grid-template-columns: 3fr 1fr;
+  grid-row: 1fr 1fr;
+  grid-gap: 3rem;
+  grid-template-areas:
+    "conti conti"
+    "main forms";
+
+  @include sm {
+    display: flex;
+    flex-direction: column;
+  }
+  @include xs {
+    padding: 0;
+  }
+
+  &__articles {
+    grid-area: main;
+    @include sm {
+      order: 3;
+    }
+  }
+
+  &__forms {
+    grid-area: forms;
+
+    @include sm {
+      order: 2;
+    }
+  }
+
+  &__continents {
+    grid-area: conti;
+    @include sm {
+      order: 1;
+    }
+  }
+}
+
+@keyframes AnimationUp {
+  0% {
+    // bottom: 2%;
+    padding-top: 250px;
+    opacity: 0;
+  }
+  100% {
+    // bottom: 10%;
+    padding-top: 100px;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,10 @@
+@import "../../../styles/variables.scss";
+
+.footer {
+  padding: 3rem 3rem;
+  text-align: center;
+
+  a {
+    color: $yellow;
+  }
+}

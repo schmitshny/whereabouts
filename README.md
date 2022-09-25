@@ -50,12 +50,13 @@ Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
 ### `npm dev`
 Watching typescript files
 
-![image](https://user-images.githubusercontent.com/33054342/189344471-2df217bb-be79-423e-94dc-1447ad1be2b9.png)
+![image](https://user-images.githubusercontent.com/33054342/192167692-2cc4dddc-b382-449f-8c01-88dc0d76b0a6.png)
 <br /><br /><br /><br /><br /><br /><br />
-![image](https://user-images.githubusercontent.com/33054342/189349576-c242c27e-9937-493d-a657-cbdbd9da7c20.png)
+![image](https://user-images.githubusercontent.com/33054342/192167708-5e7c9c93-c0c5-4c0b-b5f1-70d4ab6724d5.png)
 <br /><br /><br /><br /><br /><br /><br />
-![image](https://user-images.githubusercontent.com/33054342/189349627-11cbbe9b-4ba4-47ab-a528-684cd8dc00a3.png)
+![image](https://user-images.githubusercontent.com/33054342/192167852-00e78341-e1b2-41b5-ba4b-690a63c82d81.png)
+
 <br /><br /><br /><br /><br /><br /><br />
-![image](https://user-images.githubusercontent.com/33054342/189349655-1d831fc7-12f3-4609-9f77-1a8aa5e5434a.png)
-<br /><br /><br /><br /><br /><br /><br />
-![image](https://user-images.githubusercontent.com/33054342/189349694-5c5abb86-ddf9-4ac1-8bcb-b1d3e94d2a31.png)
+![image](https://user-images.githubusercontent.com/33054342/192167733-7dbe96c3-c705-4253-a556-0f2f932ea101.png)
+
+

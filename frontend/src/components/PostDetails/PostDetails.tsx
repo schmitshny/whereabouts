@@ -81,7 +81,9 @@ const PostDetails = () => {
         </section>
       </main>
       <aside>
-        <RecommendedPosts posts={recommendedPosts} />
+        {recommendedPosts.length > 0 && (
+          <RecommendedPosts posts={recommendedPosts} />
+        )}
       </aside>
       <Footer />
     </>

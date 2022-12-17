@@ -3,7 +3,9 @@ import { Post } from "../interfaces/Post";
 import User from "../interfaces/User";
 import searchQuery from "../interfaces/searchQuery";
 
-const API = axios.create({ baseURL: "http://localhost:5000" });
+const API = axios.create({
+  baseURL: "https://whereabouts-server.onrender.com",
+});
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem("profile")) {

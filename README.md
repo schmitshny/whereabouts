@@ -1,7 +1,7 @@
 # whereabouts
 
 
-[Link to the page](https://whereabouts-app-f.herokuapp.com/posts)
+[Link to the page](https://whereabouts-five.vercel.app/posts)
 
 ### `Frontend`
  React, Typescript, Redux Toolkit, SCSS, Material UI, 
